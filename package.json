@@ -1,0 +1,10 @@
+{
+  "name": "nagym-shop",
+  "private": true,
+  "scripts": {
+    "postinstall": "mkdir -p public && cp index.html public/index.html"
+  },
+  "devDependencies": {
+    "wrangler": "4.118.0"
+  }
+}
